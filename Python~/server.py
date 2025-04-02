@@ -62,6 +62,7 @@ def asset_creation_strategy() -> str:
         "- `manage_gameobject`: Manages GameObjects in the scene.\\n"
         "- `manage_script`: Manages C# script files.\\n"
         "- `manage_asset`: Manages prefabs and assets.\\n\\n"
+        "- `get_project_path`: Returns the path to the current project.\\n\\n"
         "Tips:\\n"
         "- Create prefabs for reusable GameObjects.\\n"
         "- Always include a camera and main light in your scenes.\\n"

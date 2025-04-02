@@ -290,6 +290,7 @@ namespace UnityMCP.Editor
                     "manage_asset" => ManageAsset.HandleCommand(paramsObject),
                     "read_console" => ReadConsole.HandleCommand(paramsObject),
                     "execute_menu_item" => ExecuteMenuItem.HandleCommand(paramsObject),
+                    "get_project_path" => GetProjectPath.HandleCommand(paramsObject),
                     _ => throw new ArgumentException($"Unknown or unsupported command type: {command.type}")
                 };
 
